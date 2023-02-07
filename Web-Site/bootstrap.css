@@ -1,0 +1,310 @@
+.logo {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.navbar-nav .nav-item .nav-link {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: inherit;
+  color: #3b3939;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0e0e0e;
+  transition: all 0.4s;
+}
+
+.destiny .container .row .text {
+  padding: 80px;
+  color: #111111;
+  flex-direction: column;
+}
+.destiny .container .row .text p {
+  width: 60%;
+  margin-bottom: 30px;
+  font-weight: 450;
+  font-family: inherit;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.destiny .container .row .text h1 {
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  line-height: 80px;
+}
+
+.button {
+  position: relative;
+  border: 3px solid #5924ec;
+  border-radius: 2px;
+  width: 155px;
+  height: 46px;
+}
+.button.primary-button {
+  background: #5924ec;
+  color: white;
+  transition: 0.6s ease;
+}
+.button.primary-button:hover {
+  background: white;
+  color: #5924ec;
+}
+button a {
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+.destiny1 .container .row .text h1 {
+  font-size: 31px;
+}
+.destiny1 .container .row .text p {
+  color: #444444;
+  width: 65%;
+  letter-spacing: 0;
+  line-height: 1.4;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.services .services-description h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #111111;
+}
+
+.services .services-description p {
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 120px;
+  color: #444444;
+  width: 97%;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.simple h2 {
+  width: 80%;
+  color: #111111;
+  font-weight: 650;
+  line-height: 1.2;
+  font-size: 34px;
+}
+.simple p {
+  font-size: 15px;
+  color: #111111;
+  line-height: 1.4;
+  margin: 20px 0 20px 0;
+  width: 80%;
+  font-weight: 480;
+}
+.simple ul li {
+  color: #111111;
+  list-style: none;
+}
+body {
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.swiper-wrapper {
+  width: 350px;
+  height: 340px;
+}
+.person {
+  flex-direction: column;
+}
+.person .person-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 150px;
+  padding-bottom: 10px;
+}
+.person .row1 {
+  color: #ff8000;
+}
+.person p {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.counter-up i {
+  color: #5924ec;
+}
+.counter-section .container .row {
+  padding: 90px;
+}
+.counter-section h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #303030;
+}
+.counter-text h4 {
+  font-size: 16px;
+  font-weight: 450;
+  color: #111111;
+}
+.left-content h2 {
+  width: 90%;
+}
+.left-content p {
+  width: 97%;
+}
+.services-description1 p {
+  letter-spacing: 1px;
+  font-weight: 450;
+  color: #606060;
+}
+.services-description1 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: inherit;
+}
+.destiny1 .text1 h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.destiny1 .text1 p {
+  width: 42%;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #303030;
+  font-weight: 300;
+}
+.footer .text ul li {
+  list-style: none;
+  flex-direction: row;
+  padding-left: 27px;
+  padding-top: 25px;
+  color: #707570;
+  font-weight: 400;
+}
+.footer .text img {
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.footer .row span {
+  font-size: 14px;
+  color: #707570;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.nopadding {
+  padding: 0;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background: #5924ec;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+#myBtn:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.nopadding .table-left,
+.nopadding .table-right {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  border: 1px solid #efefef;
+  max-width: 400px;
+  padding: 100px 70px 60px 70px;
+}
+.table-left ul li,
+.table-right ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 450;
+  color: #505050;
+  line-height: 2;
+}
+
+.table-right ul {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 140%;
+  margin-left: -60px;
+}
+.table-left ul {
+  margin-top: 6px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.nopadding {
+  margin-bottom: 120px;
+  margin-top: 70px;
+}
+/* .nopadding .table-left {
+  position: relative;
+  right: 300px;
+} */
+.table-left h2,
+.table-right h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #505050;
+}
+.table-left p,
+.table-right p {
+  font-size: 14px;
+  font-weight: 350;
+  color: #505050;
+  letter-spacing: 1px;
+}
+.table-left p {
+  width: 75%;
+  display: inline-block;
+}
+.table-left span,
+.table-right span {
+  font-size: 34px;
+  font-weight: 600;
+  color: #808080;
+}
